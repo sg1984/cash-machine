@@ -10,11 +10,14 @@ The project was developed using [Laravel Lumen](https://lumen.laravel.com/), so 
 
 No database is required, for now, maybe in the future... 
 
-There is a `.env.example` file, change it's name to `.env`, this is a standard behaviour from Laravel environment.
-
 Clone or download the project and enter in the folder created:
 ```
 cd /path-to/wherever-the/code-is
+```  
+
+There is a `.env.example` file, change it's name to `.env`, this is a standard behaviour from Laravel environment.
+```
+mv .env.example .env
 ```  
 
 Clone or download the project and run the composer installer:
