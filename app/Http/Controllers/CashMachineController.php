@@ -9,7 +9,7 @@ class CashMachineController extends Controller
 {
     public function info()
     {
-        return file_get_contents(storage_path('app/info.md'));
+        return file_get_contents(resource_path('views/info.md'));
     }
 
     public function makeWithdraw(Request $request)

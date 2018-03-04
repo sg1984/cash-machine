@@ -13,7 +13,7 @@ class ExampleTest extends TestCase
         $this->get('/');
 
         $this->assertEquals(
-            file_get_contents(storage_path('app/info.md')), $this->response->getContent()
+            file_get_contents(resource_path('views/info.md')), $this->response->getContent()
         );
     }
 }
