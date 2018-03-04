@@ -7,7 +7,7 @@ class EndpointsCashMachineTest extends TestCase
         $this->get('/');
 
         $this->assertEquals(
-            $this->app->version(), $this->response->getContent()
+            file_get_contents(storage_path('app/info.md')), $this->response->getContent()
         );
     }
 
