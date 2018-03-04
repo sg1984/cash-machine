@@ -2,7 +2,7 @@ Hello there,<br>
 <br>
 This is an API, and it has some specific endpoints to work.<br>
 <br>
-The endpoint to make this work is <a target="_blank" href="/withdraw">here (/withdraw)</a>, so you can use the way that you want. 
+The endpoint to make this work is <a target="_blank" href="/withdraw?value=180">here (/withdraw?value=180)</a>, so you can use the way that you want. 
 <br>
 <br>
 This is a API, so to better test it, there is a <a target="_blank" href="https://www.getpostman.com/">Postman</a> collection <a target="_blank" href="https://www.getpostman.com/collections/b90c0447290628ba144b">here</a> to use the endpoints.<br> 
